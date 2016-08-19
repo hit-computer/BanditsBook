@@ -17,7 +17,7 @@ avg_rewards = [0]
 num_sims = 10000
 rewards = []
 arm_selections = []
-change_of_distribution = True
+change_of_distribution = False
 
 for t in range(1,num_sims):
   #Change the underlying distribution of rewards
